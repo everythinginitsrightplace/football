@@ -381,7 +381,5 @@ p3 <- DF2 %>% #filter(Freq>1) %>%
 
 ggplotly(p3)
 
-# Ranks are rows, columns are countries
-final_matrix <- sapply(1:32, function(i) {rowMeans(result==i)})
 
 
